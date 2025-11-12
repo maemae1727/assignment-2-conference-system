@@ -1,0 +1,9 @@
+django>=4.2
+psycopg2-binary
+python-dotenv
+asgiref
+uvicorn
+djangorestframework
+django-cors-headers
+pyjwt
+djangorestframework-simplejwt
