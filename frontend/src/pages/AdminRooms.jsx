@@ -19,7 +19,10 @@ export default function AdminRooms() {
     }
 
 
-async function remove(id) { await api.delete(`rooms/${id}/`); load() }
+    async function remove(id) {
+        await api.delete(`rooms/${id}/`);
+        load()
+    }
 
 
 return (
